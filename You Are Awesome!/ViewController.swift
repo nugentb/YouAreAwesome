@@ -30,14 +30,17 @@ class ViewController: UIViewController {
                         "You brighten my day!",
                         "You are tremendous!",
                         "Hey, Fabulous!",
-                        "You've got the design skills of Pablo Picasso"]
+                        "You've got the design skills of Jonyu Ive!"]
         
-        messageLabel.text = messages[index]
-        if index == messages.count - 1 {
-            index = 0
-        } else {
-            index += 1
-        }
+        messageLabel.text = messages.randomElement()!
+        
+//        messageLabel.text = messages[index]
+//
+//        if index == messages.count - 1 {
+//            index = 0
+//        } else {
+//            index += 1
+//        }
         
 //        if messageLabel.text == message3{
 //        messageLabel.text = message2
