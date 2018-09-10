@@ -31,6 +31,7 @@ class ViewController: UIViewController {
                         "You are tremendous!",
                         "Hey, Fabulous!",
                         "You've got the design skills of Jonyu Ive!"]
+//        
         
         messageLabel.text = messages.randomElement()!
         
